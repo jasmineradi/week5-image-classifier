@@ -1,0 +1,3 @@
+0 phone
+1 plug
+2 sticky notes

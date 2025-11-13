@@ -1,7 +1,7 @@
 tensorflow
-keras
 pillow
 numpy
+keras
 opencv-python
 flask
 matplotlib
