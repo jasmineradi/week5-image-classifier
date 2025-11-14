@@ -1,9 +1,15 @@
-##Computer Visison Image Classifier
+## Computer Visison Image Classifier
 
 ## Project Overview
 This project implements image classification using computer vision concepts from Chapter
 24. The AI can recognize objects in images using a neural network trained with Teachable
 Machine.
+
+
+<p align="center">
+  <img width="500" height="auto" alt="Screenshot 2025-11-13 171053" src="https://github.com/user-attachments/assets/3e94af74-85d4-4714-b3a4-9aaf7c07cfc0" />
+</p>
+
 
 ## My Classification Task
 
@@ -11,8 +17,11 @@ Machine.
 
 **Training Images:** ~130 images per class
 
-**Accuracy:** 90% during testing
+**Accuracy:** 60% ~ 99.8% during testing
 
+<p align="center"><img width="500" height="auto" alt="Screenshot 2025-11-13 171457" src="https://github.com/user-attachments/assets/24e72af8-a005-47fe-9115-2d98d9fb0fb9" /></p>
+<p align="center"><img width="500" height="auto" alt="Screenshot 2025-11-13 180356" src="https://github.com/user-attachments/assets/1acec9d2-7028-44ed-a950-c2e27d2d9f5e" /></p>
+<p align="center"><img width="500" height="auto" alt="Screenshot 2025-11-13 180633" src="https://github.com/user-attachments/assets/a03ccfd9-832c-4644-8c57-72f7e2f11e61" /></p>
 ## How to Run
 
 1. **Install Requirements**
@@ -62,4 +71,8 @@ When entering training data, I found that sixty images was not enough data to tr
 When computers train on specific data they may not get all the information they need and bias can occur. For example, if only one angle is viewed at a time it may not detect the same object when angled in the opposite direction or if it is flipped or if the object it is training on can have various shapes, sizes or a different color. The more information the image classifer has, the better data and the decrease in bias. There are significant privacy concerns if webcams are used to collect personal information or any varying amount of data. Users should be aware of when it is being used and how it is being used. Other privacy issues include the image classifier being used to track anyone without their knowledge.
 
 ## What I Learned
-I learned that computer vision models will break down images into pixels to detect patterns thorugh neural networks. I used Google's Teachable Machine to build my own dataset and export a trained model which trained on my own data. Through the Teachable Machine I was able to visualize how the model trained and was able to predict different objects (phone, plug and sticky notes).
+I learned that computer vision models will break down images into pixels to detect patterns thorugh neural networks. I used Google's Teachable Machine to build my own dataset and export a trained model which trained on my own data. Through the Teachable Machine I was able to visualize how the model trained and was able to predict different objects (phone, plug and sticky notes).<img width="629" height="897" alt="Screenshot 2025-11-13 172112" src="https://github.com/user-attachments/assets/e63354c5-e69f-4fb4-a4fe-860c0498bad3" />
+
+
+
+
