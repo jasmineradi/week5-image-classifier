@@ -59,7 +59,9 @@ The neural network learns to detect:
 5. Return highest probability as prediction
 
 ## Challenges I Encountered
-When entering training data, I found that sixty images was not enough data to train the model. After adding more data, the model was able to more easily detect the objects with better accuracy. I struggled to get the model to distinguish between the plug and the sticky notes. I found that by giving more of a variety of angles the model was able to make even more improvements. This shows that the more data that is given to the model, the better it is able to learn.
+When entering training data, I found that sixty images was not enough data to train the model. After adding more data, the model was able to more easily detect the objects with better accuracy. I struggled to get the model to distinguish between the plug and the sticky notes, but by giving more variety in angles, the model showed noticeable improvement. This demonstrates that the more data a model receives, the better it can learn.
+
+Additionally, I encountered a compatibility issue when trying to run the provided .h5 model. The model was created using older versions of TensorFlow and Keras, which caused errors in my current environment. I resolved this by downgrading to Python 3.10.11 and installing TensorFlow/Keras 2.12 to match the model’s requirements.
 
 ## Real-World Applications
 
