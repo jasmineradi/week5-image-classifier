@@ -71,8 +71,4 @@ When entering training data, I found that sixty images was not enough data to tr
 When computers train on specific data they may not get all the information they need and bias can occur. For example, if only one angle is viewed at a time it may not detect the same object when angled in the opposite direction or if it is flipped or if the object it is training on can have various shapes, sizes or a different color. The more information the image classifer has, the better data and the decrease in bias. There are significant privacy concerns if webcams are used to collect personal information or any varying amount of data. Users should be aware of when it is being used and how it is being used. Other privacy issues include the image classifier being used to track anyone without their knowledge.
 
 ## What I Learned
-I learned that computer vision models will break down images into pixels to detect patterns thorugh neural networks. I used Google's Teachable Machine to build my own dataset and export a trained model which trained on my own data. Through the Teachable Machine I was able to visualize how the model trained and was able to predict different objects (phone, plug and sticky notes).<img width="629" height="897" alt="Screenshot 2025-11-13 172112" src="https://github.com/user-attachments/assets/e63354c5-e69f-4fb4-a4fe-860c0498bad3" />
-
-
-
-
+I learned that computer vision models will break down images into pixels to detect patterns thorugh neural networks. I used Google's Teachable Machine to build my own dataset and export a trained model which trained on my own data. Through the Teachable Machine I was able to visualize how the model trained and was able to predict different objects (phone, plug and sticky notes).
